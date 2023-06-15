@@ -1,9 +1,9 @@
 // complete the given function
-const string= str.toLowerCase();
-
 function palindrome(str){
- for(let i=0; i<str.length; i++){
-    if(string[i] !==string[length-1-i])
+const string= str.toLowerCase();
+const n = string.length;
+ for(let i=0; i<n; i++){
+    if(string[i] !==string[n-1-i])
 
 	  {
         return false;
